@@ -1,0 +1,2 @@
+Dataset: I use WebKB data set, for 1040 samples, each sample has 2500 vacabularies. They were classified into 4 class(1...4). 
+bernoulli model: I use cross valid test algorithm to test the 1040 labeled data. Split data into 10 groups, each group has balance on 4 group, the reasult classify acurrency is 87.9%. If donot use valid test algorithm the acurrency is 85%.
