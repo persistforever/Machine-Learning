@@ -1,0 +1,10 @@
+res = zeros(3,5000) ;
+temp = zeros(5000,3) ;
+[temp,res(1,:)] = gradAscent(data,5000) ;
+[temp,res(2,:)] = stocGradAscent(data,50) ;
+[temp,res(3,:)] = impStocGradAscent(data,50) ;
+figure ;
+hold on ;
+plot(res(1,4000:5000),'r') ;
+plot(res(2,4000:5000),'g') ;
+plot(res(3,4000:5000),'b') ;
